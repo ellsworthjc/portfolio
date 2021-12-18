@@ -343,16 +343,17 @@ input::placeholder, .longInput::placeholder {
 
 /* media queries */
 
-@media (max-width: 964px) {
+@media screen and (max-width: 964px) {
 	#projects {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
-@media (max-width: 756px) {
+@media screen and (max-width: 756px) {
 	#projects {
 		grid-template-columns: repeat(1, 1fr);
 	}
 	#contact-section {
 		width: 90%;
+	}
 }

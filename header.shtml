@@ -1,0 +1,5 @@
+<nav id="navbar">
+    <a href="#welcome-section">Welcome</a>
+    <a href="#projects-section">Projects</a>
+    <a href="#contact-section">Contact</a>
+</nav>
