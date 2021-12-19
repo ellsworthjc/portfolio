@@ -20,6 +20,11 @@ body {
 	margin: 0;
 }
 
+::selection {
+	background: var(--accent2);
+	color: var(--light);
+}
+
 /* Navigation */
 
 nav {
