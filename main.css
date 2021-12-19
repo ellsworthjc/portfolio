@@ -149,7 +149,6 @@ nav a:active {
 #projects {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
 	margin: 25px;
 }
 
@@ -181,6 +180,12 @@ nav a:active {
 	margin: 15px auto 0 auto;
 }
 
+.project-tile hr {
+	opacity: 50%;
+	border-width: 1px;
+	width: 33%;
+}
+
 .project-tile p {
 	
 }
@@ -195,11 +200,12 @@ nav a:active {
 	text-decoration: none;
 	font-weight: 500;
 	letter-spacing: .1em;
-	transition: background-color 150ms;
+	transition: all 250ms;
 }
 
 .project-tile a:hover {
 	background-color: var(--accent1);
+	transform: scale(1.05);
 }
 
 #profile-link {
