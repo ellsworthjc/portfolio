@@ -354,13 +354,13 @@ input::placeholder, .longInput::placeholder {
 
 /* media queries */
 
-@media screen and (max-width: 964px) {
+@media (max-width: 964px) {
 	#projects {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
-@media screen and (max-width: 756px) {
+@media (max-width: 756px) {
 	#projects {
 		grid-template-columns: repeat(1, 1fr);
 	}
