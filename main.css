@@ -177,6 +177,7 @@ nav a:active {
 
 .project-tile img {
 	width: 90%;
+	aspect-ratio: 4 / 3;
 }
 
 .project-tile h3 {
